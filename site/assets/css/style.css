@@ -1,0 +1,280 @@
+body, html
+{
+	/*background: red;*/
+	padding: 0;
+	margin: 0;
+	font-family: "titillium", serif;
+}
+
+a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+.btn 
+{
+	padding: 10px;
+	border: none;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+	background: #000;
+	font-family: "titillium", serif;
+}
+
+.ui-box
+{
+	background: #fff;
+	box-shadow: 0 1px 5px 0 #c8c8c8;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.ui-join-server
+{
+	text-transform: uppercase;
+	background: #31bfe2;
+	width: 100%;
+	height: 50px;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	line-height: 56px;
+	margin-bottom: 15px;
+	border-bottom: 2px solid #2da2bf;
+}
+.ui-join-server:hover
+{
+	color: #2da2bf;
+}
+
+article.post
+{
+	border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+article.post:last-child
+{
+	border-bottom: none;
+	padding-bottom: 0;
+}
+article.post .post-date-wrapper
+{
+	float: left;
+}
+article.post .post-date
+{
+	background-image: linear-gradient(#E72E59,#d1103a);
+    border: 1px solid #c1bbb7;
+    color: #fff;
+    text-align: center;
+    padding: 2px 7px 7px;
+    margin-right: 15px;
+    border-radius: 2px;
+}
+article.post .post-date .day
+{
+	font-size: 24px;
+    font-weight: 300;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 3px;
+    margin-bottom: 5px;
+}
+article.post .post-date .month
+{
+	font-size: 12px;
+    font-weight: 600;
+}
+article.post .post-body
+{
+	overflow: hidden;
+}
+article.post .post-body h2
+{
+    font-size: 24px;
+    line-height: 32px;
+}
+article.post .post-body p
+{
+	margin: 0;
+    text-align: justify;
+    font-size: 13px;
+}
+
+header
+{
+	height: 50px;
+	background: #E72E59;
+	position: fixed;
+	width: calc(100% - 30%);
+    padding: 0px 15%;
+    z-index: 1;
+}
+
+.menu
+{
+	float: left;
+}
+.menu ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.menu ul li
+{
+	display: inline-block;
+}
+.menu ul li a
+{
+	line-height: 50px;
+	height: 50px;
+	display: block;
+	text-transform: uppercase;
+	color: #FFF;
+	text-decoration: none;
+	font-family: "titillium", serif;
+	padding: 0px 10px;
+}
+.menu ul li a:hover
+{
+	background: #d1103a;
+}
+
+.ui-account
+{
+	float: right;
+	height: 50px;
+    line-height: 48px;
+}
+.ui-account a
+{
+	font-family: "titillium", serif;
+    padding: 10px 10px 8px 10px;
+}
+.ui-account .ui-register
+{
+	background: #FEC601;
+	border-bottom: 2px solid #fc9002;
+}
+.ui-account .ui-register:hover
+{
+	background: #fc9002;
+}
+.ui-account .ui-login
+{
+	background: #E22D0A;
+	border-bottom: 2px solid #C42509;
+}
+.ui-account .ui-login:hover
+{
+	background: #C42509;
+}
+
+.ui-logo
+{
+	position: relative;
+	top: 90px;
+    left: 15%;
+}
+.ui-logo img
+{
+	width: 200px;
+}
+
+
+.page
+{
+    background: #f0f0f0;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding: 20px 5px;
+    min-height: 500px;
+    margin-bottom: 90px;
+    border: 3px solid rgba(0, 0, 0, .1);
+    border-top: none;
+}
+
+.ui-panel, .ui-panel-content
+{
+	background: #FEC601;
+    margin-right: 15%;
+    margin-left: 15%;
+	margin-top: 120px;
+	border: 3px solid rgba(252, 144, 2, .3);
+	border-bottom: none;
+	padding: 15px;
+}
+.ui-panel-content
+{
+	margin-top: 0px;
+	border-top: none;
+	color: #fff;
+	background: #292929;
+	display: none;
+}
+.ui-panel-content table, td, th 
+{  
+	background: #1a1a1a;  
+    border: 1px solid #2e2e2e;
+    text-align: left;
+}
+.ui-panel-content table 
+{
+    border-collapse: collapse;
+    width: 100%;
+}
+.ui-panel-content th, td 
+{
+    padding: 10px;
+}
+.ui-panel-content table img
+{
+	width: 24px;
+}
+
+.ui-panel .ui-server-infos
+{
+	background: #E22D0A;
+}
+.ui-panel .ui-social-links
+{
+	float: right;
+	margin: 0;
+	padding: 0;
+	margin-top: 6px;
+}
+.ui-panel .ui-social-links li 
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: red;
+    border-radius: 50%;
+    margin-left: 6px;
+}
+.ui-panel .ui-social-links li a
+{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background: red;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 17px;
+}
+.ui-panel .ui-social-links li a:hover
+{
+	background: #C42509;
+}
+
+footer
+{
+	/*margin-left: 15%;
+	margin-right: 15%;*/
+	background: #292929;
+	color: #fff;
+	padding: 10px;
+}
